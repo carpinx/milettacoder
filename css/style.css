@@ -1545,7 +1545,8 @@ a:hover {
   background: #05141a;
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "logo quienSoy servicios" "logo productos contacto";
+      grid-template-areas: "logo quienSoy servicios"
+ "logo productos contacto";
   -ms-grid-columns: 2fr 1fr 1fr;
       grid-template-columns: 2fr 1fr 1fr;
   -ms-grid-rows: 1fr 1fr;
@@ -1554,7 +1555,9 @@ a:hover {
 
 @media screen and (max-width: 992px) {
   .home {
-        grid-template-areas: "logo logo" "quienSoy servicios" "productos contacto";
+        grid-template-areas: "logo logo"
+ "quienSoy servicios"
+ "productos contacto";
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
     -ms-grid-rows: 1fr 1fr 1fr;
@@ -4501,6 +4504,12 @@ a:hover {
   overflow: hidden;
   cursor: pointer;
   margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 992px) {
+  .cProductos .producto {
+    pointer-events: none;
+  }
 }
 
 .cProductos .producto__icon {
