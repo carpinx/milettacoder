@@ -20,6 +20,10 @@
         overflow: hidden;
         cursor: pointer;
         margin-bottom: 2rem;
+        
+        @include tablet {
+            pointer-events: none;
+        }
 
         &__icon {
             opacity: 0;
