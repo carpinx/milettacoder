@@ -63,8 +63,8 @@ a {
 
         @include tablet {
 
-            -webkit-animation:entradaMenu .5s cubic-bezier(.175,.885,.32,1.275) .1s both;
-            animation:entradaMenu .5s cubic-bezier(.175,.885,.32,1.275) .1s both;
+            -webkit-animation:entradaIzquierda .5s cubic-bezier(.175,.885,.32,1.275) .1s both;
+            animation:entradaIzquierda .5s cubic-bezier(.175,.885,.32,1.275) .1s both;
 
             &__logo {
                 margin-top: 1rem;
@@ -158,8 +158,8 @@ a {
             font-size: 1.6rem;
             font-weight: 600;
             transition: all .1s;
-            -webkit-animation:entradaMenu .5s cubic-bezier(.175,.885,.32,1.275) both;
-            animation:entradaMenu .5s cubic-bezier(.175,.885,.32,1.275) both;
+            -webkit-animation:entradaIzquierda .5s cubic-bezier(.175,.885,.32,1.275) both;
+            animation:entradaIzquierda .5s cubic-bezier(.175,.885,.32,1.275) both;
 
             @include tablet {
                 padding: 1rem 0;
@@ -211,8 +211,8 @@ a {
     align-items: center;
     justify-content: space-around;
     padding: 4rem 0;
-    -webkit-animation:entradaMenu .5s cubic-bezier(.175,.885,.32,1.275) .9s both;
-    animation:entradaMenu .5s cubic-bezier(.175,.885,.32,1.275) .9s both;
+    -webkit-animation:entradaArriba .5s cubic-bezier(.175,.885,.32,1.275) .9s both;
+    animation:entradaArriba .5s cubic-bezier(.175,.885,.32,1.275) .9s both;
 
     &__logo {
         display: flex;
@@ -280,22 +280,5 @@ a {
         &:hover {
             color: $main-color;
         }
-    }
-}
-
-.wppFlotante {
-    position: fixed;
-    bottom: 1rem;
-    right: 1rem;
-    z-index: 99999;
-    transition: all .2s;
-
-    img {
-        -webkit-animation:entradaQSDer .5s cubic-bezier(.175,.885,.32,1.275) 2s both;
-        animation:entradaQSDer .5s cubic-bezier(.175,.885,.32,1.275) 2s both;
-    }
-
-    &:hover {
-        transform: translateY(-1rem);
     }
 }

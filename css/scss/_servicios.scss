@@ -10,8 +10,8 @@
     h1 {
         @include titulo;
         color: white;
-        -webkit-animation:entradaServicios .5s cubic-bezier(.175,.885,.32,1.275) .7s both;
-        animation:entradaServicios .5s cubic-bezier(.175,.885,.32,1.275) .7s both;
+        -webkit-animation:entradaArriba .5s cubic-bezier(.175,.885,.32,1.275) .7s both;
+        animation:entradaArriba .5s cubic-bezier(.175,.885,.32,1.275) .7s both;
     }
     
     .card {
@@ -66,8 +66,8 @@
     }
 
     .rowCards > div {
-        -webkit-animation:entradaServicios .5s cubic-bezier(.175,.885,.32,1.275) both;
-        animation:entradaServicios .5s cubic-bezier(.175,.885,.32,1.275) both;
+        -webkit-animation:entradaArriba .5s cubic-bezier(.175,.885,.32,1.275) both;
+        animation:entradaArriba .5s cubic-bezier(.175,.885,.32,1.275) both;
         
         @for $card from 1 through 3 {
             &:nth-child(#{$card}) {

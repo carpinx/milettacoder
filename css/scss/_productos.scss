@@ -10,8 +10,8 @@
     h1 {
         @include titulo;
         color: white;
-        -webkit-animation:entradaServicios .5s cubic-bezier(.175,.885,.32,1.275) .7s both;
-        animation:entradaServicios .5s cubic-bezier(.175,.885,.32,1.275) .7s both;
+        -webkit-animation:entradaArriba .5s cubic-bezier(.175,.885,.32,1.275) .7s both;
+        animation:entradaArriba .5s cubic-bezier(.175,.885,.32,1.275) .7s both;
     }
 
     .producto {
@@ -91,8 +91,8 @@
 }
 
 .colProd {
-    -webkit-animation:entradaProductos .5s cubic-bezier(.175,.885,.32,1.275) backwards;
-    animation:entradaProductos .5s cubic-bezier(.175,.885,.32,1.275) backwards;
+    -webkit-animation:entradaArriba .5s cubic-bezier(.175,.885,.32,1.275) backwards;
+    animation:entradaArriba .5s cubic-bezier(.175,.885,.32,1.275) backwards;
 
     @for $productos from 1 through 12 {
         &:nth-child(#{$productos}) {

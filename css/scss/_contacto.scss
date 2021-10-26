@@ -11,8 +11,8 @@
     color: #ffffff;
     text-align: center;
     background-image: url('../img/fondoMedio.png');
-    -webkit-animation:entradaContactoIzq .5s cubic-bezier(.175,.885,.32,1.275) .7s both;
-    animation:entradaContactoIzq .5s cubic-bezier(.175,.885,.32,1.275) .7s both;
+    -webkit-animation:entradaIzquierda .5s cubic-bezier(.175,.885,.32,1.275) .7s both;
+    animation:entradaIzquierda .5s cubic-bezier(.175,.885,.32,1.275) .7s both;
 
     @include tablet {
         padding: 6rem 3rem;
@@ -45,8 +45,8 @@
 
 .formContacto {
     padding: 9rem;
-    -webkit-animation:entradaContactoIzq .5s cubic-bezier(.175,.885,.32,1.275) .8s both;
-    animation:entradaContactoIzq .5s cubic-bezier(.175,.885,.32,1.275) .8s both;
+    -webkit-animation:entradaDerecha .5s cubic-bezier(.175,.885,.32,1.275) .8s both;
+    animation:entradaDerecha .5s cubic-bezier(.175,.885,.32,1.275) .8s both;
 
     @include tablet {
         padding: 6rem 4rem;

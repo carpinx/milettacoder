@@ -56,14 +56,14 @@
             font-size: 2rem;
             font-weight: 600;
             transition: all .2s;
-            -webkit-animation:entradaHome-#{$homeLink} .5s cubic-bezier(.175,.885,.32,1.275) both;
-            animation:entradaHome-#{$homeLink} .5s cubic-bezier(.175,.885,.32,1.275) both;
+            -webkit-animation:entradaIzquierda .5s cubic-bezier(.175,.885,.32,1.275) both;
+            animation:entradaIzquierda .5s cubic-bezier(.175,.885,.32,1.275) both;
             position: relative;
             overflow: hidden;
 
             @include movil {
-                -webkit-animation:entradaHome-responsive .5s cubic-bezier(.175,.885,.32,1.275) both;
-                animation:entradaHome-responsive .5s cubic-bezier(.175,.885,.32,1.275) both;
+                -webkit-animation:entradaArriba .5s cubic-bezier(.175,.885,.32,1.275) both;
+                animation:entradaArriba .5s cubic-bezier(.175,.885,.32,1.275) both;
             }
 
             &:not(.home__logo) {
