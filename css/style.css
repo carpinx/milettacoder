@@ -1706,6 +1706,9 @@ a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-image: url(../img/pruebaHome.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 @media screen and (max-width: 992px) {
