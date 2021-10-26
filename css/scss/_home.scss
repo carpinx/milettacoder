@@ -55,7 +55,7 @@
             font-family: $fontPoppins;
             font-size: 2rem;
             font-weight: 600;
-            transition: all .2s;
+            transition: background-color .2s, color .2s, padding .2s, align-items .2s, justify-content .2s;
             -webkit-animation:entradaIzquierda .5s cubic-bezier(.175,.885,.32,1.275) both;
             animation:entradaIzquierda .5s cubic-bezier(.175,.885,.32,1.275) both;
             position: relative;
@@ -75,7 +75,7 @@
             i {
                 font-size: 4rem;
                 transform: translateY(3rem);
-                transition: all .2s, color .1s;
+                transition: transform .2s, color .1s;
 
                 @include tablet {
                     transform: none;
@@ -95,7 +95,7 @@
                 font-weight: 800;
                 z-index: 1;
                 margin-bottom: 0;
-                transition: all 0s;
+                transition: opacity 0s;
                 color: $main-color;
 
                 @include tablet {

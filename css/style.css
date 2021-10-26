@@ -964,8 +964,10 @@ a:hover {
   font-family: "Poppins", sans-serif;
   font-size: 2rem;
   font-weight: 600;
-  -webkit-transition: all .2s;
-  transition: all .2s;
+  -webkit-transition: background-color .2s, color .2s, padding .2s, -webkit-box-align .2s, -webkit-box-pack .2s;
+  transition: background-color .2s, color .2s, padding .2s, -webkit-box-align .2s, -webkit-box-pack .2s;
+  transition: background-color .2s, color .2s, padding .2s, align-items .2s, justify-content .2s;
+  transition: background-color .2s, color .2s, padding .2s, align-items .2s, justify-content .2s, -webkit-box-align .2s, -ms-flex-align .2s, -webkit-box-pack .2s, -ms-flex-pack .2s;
   -webkit-animation: entradaIzquierda 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
   animation: entradaIzquierda 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
   position: relative;
@@ -992,8 +994,10 @@ a:hover {
   font-size: 4rem;
   -webkit-transform: translateY(3rem);
           transform: translateY(3rem);
-  -webkit-transition: all .2s, color .1s;
-  transition: all .2s, color .1s;
+  -webkit-transition: color .1s, -webkit-transform .2s;
+  transition: color .1s, -webkit-transform .2s;
+  transition: transform .2s, color .1s;
+  transition: transform .2s, color .1s, -webkit-transform .2s;
 }
 
 @media screen and (max-width: 992px) {
@@ -1019,8 +1023,8 @@ a:hover {
   font-weight: 800;
   z-index: 1;
   margin-bottom: 0;
-  -webkit-transition: all 0s;
-  transition: all 0s;
+  -webkit-transition: opacity 0s;
+  transition: opacity 0s;
   color: #A7CCD9;
 }
 
@@ -1114,8 +1118,10 @@ a:hover {
   font-family: "Poppins", sans-serif;
   font-size: 2rem;
   font-weight: 600;
-  -webkit-transition: all .2s;
-  transition: all .2s;
+  -webkit-transition: background-color .2s, color .2s, padding .2s, -webkit-box-align .2s, -webkit-box-pack .2s;
+  transition: background-color .2s, color .2s, padding .2s, -webkit-box-align .2s, -webkit-box-pack .2s;
+  transition: background-color .2s, color .2s, padding .2s, align-items .2s, justify-content .2s;
+  transition: background-color .2s, color .2s, padding .2s, align-items .2s, justify-content .2s, -webkit-box-align .2s, -ms-flex-align .2s, -webkit-box-pack .2s, -ms-flex-pack .2s;
   -webkit-animation: entradaIzquierda 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
   animation: entradaIzquierda 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
   position: relative;
@@ -1142,8 +1148,10 @@ a:hover {
   font-size: 4rem;
   -webkit-transform: translateY(3rem);
           transform: translateY(3rem);
-  -webkit-transition: all .2s, color .1s;
-  transition: all .2s, color .1s;
+  -webkit-transition: color .1s, -webkit-transform .2s;
+  transition: color .1s, -webkit-transform .2s;
+  transition: transform .2s, color .1s;
+  transition: transform .2s, color .1s, -webkit-transform .2s;
 }
 
 @media screen and (max-width: 992px) {
@@ -1169,8 +1177,8 @@ a:hover {
   font-weight: 800;
   z-index: 1;
   margin-bottom: 0;
-  -webkit-transition: all 0s;
-  transition: all 0s;
+  -webkit-transition: opacity 0s;
+  transition: opacity 0s;
   color: #A7CCD9;
 }
 
@@ -1264,8 +1272,10 @@ a:hover {
   font-family: "Poppins", sans-serif;
   font-size: 2rem;
   font-weight: 600;
-  -webkit-transition: all .2s;
-  transition: all .2s;
+  -webkit-transition: background-color .2s, color .2s, padding .2s, -webkit-box-align .2s, -webkit-box-pack .2s;
+  transition: background-color .2s, color .2s, padding .2s, -webkit-box-align .2s, -webkit-box-pack .2s;
+  transition: background-color .2s, color .2s, padding .2s, align-items .2s, justify-content .2s;
+  transition: background-color .2s, color .2s, padding .2s, align-items .2s, justify-content .2s, -webkit-box-align .2s, -ms-flex-align .2s, -webkit-box-pack .2s, -ms-flex-pack .2s;
   -webkit-animation: entradaIzquierda 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
   animation: entradaIzquierda 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
   position: relative;
@@ -1292,8 +1302,10 @@ a:hover {
   font-size: 4rem;
   -webkit-transform: translateY(3rem);
           transform: translateY(3rem);
-  -webkit-transition: all .2s, color .1s;
-  transition: all .2s, color .1s;
+  -webkit-transition: color .1s, -webkit-transform .2s;
+  transition: color .1s, -webkit-transform .2s;
+  transition: transform .2s, color .1s;
+  transition: transform .2s, color .1s, -webkit-transform .2s;
 }
 
 @media screen and (max-width: 992px) {
@@ -1319,8 +1331,8 @@ a:hover {
   font-weight: 800;
   z-index: 1;
   margin-bottom: 0;
-  -webkit-transition: all 0s;
-  transition: all 0s;
+  -webkit-transition: opacity 0s;
+  transition: opacity 0s;
   color: #A7CCD9;
 }
 
@@ -1414,8 +1426,10 @@ a:hover {
   font-family: "Poppins", sans-serif;
   font-size: 2rem;
   font-weight: 600;
-  -webkit-transition: all .2s;
-  transition: all .2s;
+  -webkit-transition: background-color .2s, color .2s, padding .2s, -webkit-box-align .2s, -webkit-box-pack .2s;
+  transition: background-color .2s, color .2s, padding .2s, -webkit-box-align .2s, -webkit-box-pack .2s;
+  transition: background-color .2s, color .2s, padding .2s, align-items .2s, justify-content .2s;
+  transition: background-color .2s, color .2s, padding .2s, align-items .2s, justify-content .2s, -webkit-box-align .2s, -ms-flex-align .2s, -webkit-box-pack .2s, -ms-flex-pack .2s;
   -webkit-animation: entradaIzquierda 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
   animation: entradaIzquierda 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
   position: relative;
@@ -1442,8 +1456,10 @@ a:hover {
   font-size: 4rem;
   -webkit-transform: translateY(3rem);
           transform: translateY(3rem);
-  -webkit-transition: all .2s, color .1s;
-  transition: all .2s, color .1s;
+  -webkit-transition: color .1s, -webkit-transform .2s;
+  transition: color .1s, -webkit-transform .2s;
+  transition: transform .2s, color .1s;
+  transition: transform .2s, color .1s, -webkit-transform .2s;
 }
 
 @media screen and (max-width: 992px) {
@@ -1469,8 +1485,8 @@ a:hover {
   font-weight: 800;
   z-index: 1;
   margin-bottom: 0;
-  -webkit-transition: all 0s;
-  transition: all 0s;
+  -webkit-transition: opacity 0s;
+  transition: opacity 0s;
   color: #A7CCD9;
 }
 
@@ -1564,8 +1580,10 @@ a:hover {
   font-family: "Poppins", sans-serif;
   font-size: 2rem;
   font-weight: 600;
-  -webkit-transition: all .2s;
-  transition: all .2s;
+  -webkit-transition: background-color .2s, color .2s, padding .2s, -webkit-box-align .2s, -webkit-box-pack .2s;
+  transition: background-color .2s, color .2s, padding .2s, -webkit-box-align .2s, -webkit-box-pack .2s;
+  transition: background-color .2s, color .2s, padding .2s, align-items .2s, justify-content .2s;
+  transition: background-color .2s, color .2s, padding .2s, align-items .2s, justify-content .2s, -webkit-box-align .2s, -ms-flex-align .2s, -webkit-box-pack .2s, -ms-flex-pack .2s;
   -webkit-animation: entradaIzquierda 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
   animation: entradaIzquierda 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
   position: relative;
@@ -1592,8 +1610,10 @@ a:hover {
   font-size: 4rem;
   -webkit-transform: translateY(3rem);
           transform: translateY(3rem);
-  -webkit-transition: all .2s, color .1s;
-  transition: all .2s, color .1s;
+  -webkit-transition: color .1s, -webkit-transform .2s;
+  transition: color .1s, -webkit-transform .2s;
+  transition: transform .2s, color .1s;
+  transition: transform .2s, color .1s, -webkit-transform .2s;
 }
 
 @media screen and (max-width: 992px) {
@@ -1619,8 +1639,8 @@ a:hover {
   font-weight: 800;
   z-index: 1;
   margin-bottom: 0;
-  -webkit-transition: all 0s;
-  transition: all 0s;
+  -webkit-transition: opacity 0s;
+  transition: opacity 0s;
   color: #A7CCD9;
 }
 
@@ -2620,8 +2640,10 @@ a:hover {
   color: #24414a;
   text-align: center;
   min-height: 95%;
-  -webkit-transition: all .2s;
-  transition: all .2s;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
   border-radius: 3px;
   overflow: hidden;
 }
@@ -2980,15 +3002,15 @@ a:hover {
   right: 0;
   left: 0;
   margin: auto;
-  -webkit-transition: all .2s;
-  transition: all .2s;
+  -webkit-transition: opacity .2s;
+  transition: opacity .2s;
 }
 
 .cProductos .producto__icon i {
   display: block;
   font-size: 3rem;
-  -webkit-transition: all .2s;
-  transition: all .2s;
+  -webkit-transition: font-size .2s;
+  transition: font-size .2s;
 }
 
 .cProductos .producto__icon i:hover {
