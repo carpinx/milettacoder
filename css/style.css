@@ -1741,6 +1741,7 @@ a:hover {
 @media screen and (max-width: 576px) {
   .home__logo {
     padding-left: 2rem;
+    background-position: top;
   }
 }
 
