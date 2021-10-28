@@ -16,10 +16,9 @@
 
     .producto {
         position: relative;
-        border-radius: 3px;
+        border-radius: 3px 3px 0 0;
         overflow: hidden;
         cursor: pointer;
-        margin-bottom: 2rem;
         
         @include tablet {
             pointer-events: none;
@@ -61,6 +60,38 @@
         @for $productos from 1 through 12 {
             &:nth-child(#{$productos}) {
                 animation-delay: .7s + .1s * $productos;
+            }
+        }
+    }
+
+    .descripcion {
+        background: white;
+        margin-bottom: 2rem;
+        border-radius: 0 0 3px 3px;
+        padding: 2rem;
+
+        &__title {
+            font-family: $fontPoppins;
+            font-weight: 600;
+            font-size: 2.2rem;
+            color: $servicios-bg;
+            margin-bottom: 0;
+        }
+
+        &__ingr {
+            margin-bottom: 0;
+            font-family: $fontOpen;
+            font-size: 1.4rem;
+            line-height: 2rem;
+            min-height: 4rem;
+            color: #8a8a8a;
+
+            @include tablet {
+                min-height: 6rem;
+            }
+
+            @include movil {
+                min-height: unset;
             }
         }
     }

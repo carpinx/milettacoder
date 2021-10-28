@@ -570,6 +570,16 @@ a:hover {
   animation: entradaArriba 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.9s both;
 }
 
+.footerM *::-moz-selection {
+  background-color: #A7CCD9;
+  color: #05141a;
+}
+
+.footerM *::selection {
+  background-color: #A7CCD9;
+  color: #05141a;
+}
+
 .footerM__logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1726,9 +1736,51 @@ a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url(../img/pruebaHome.jpg);
+  color: #24414a;
+}
+
+.home__logo::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/home.jpg);
   background-size: cover;
   background-position: center;
+  z-index: -1;
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+  -webkit-transition: -webkit-filter .2s linear, -webkit-transform .2s ease-in-out;
+  transition: -webkit-filter .2s linear, -webkit-transform .2s ease-in-out;
+  transition: filter .2s linear, transform .2s ease-in-out;
+  transition: filter .2s linear, transform .2s ease-in-out, -webkit-filter .2s linear, -webkit-transform .2s ease-in-out;
+}
+
+@media screen and (max-width: 992px) {
+  .home__logo::before {
+    background-position: center top -90px;
+    -webkit-filter: blur(1px);
+            filter: blur(1px);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .home__logo::before {
+    background-position: center top -20px;
+  }
+}
+
+.home__logo:hover {
+  color: #24414a;
+}
+
+.home__logo:hover::before {
+  -webkit-filter: none;
+          filter: none;
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
 }
 
 @media screen and (max-width: 992px) {
@@ -2974,10 +3026,9 @@ a:hover {
 
 .cProductos .producto {
   position: relative;
-  border-radius: 3px;
+  border-radius: 3px 3px 0 0;
   overflow: hidden;
   cursor: pointer;
-  margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 992px) {
@@ -3083,6 +3134,42 @@ a:hover {
 .cProductos .producto:nth-child(12) {
   -webkit-animation-delay: 1.9s;
           animation-delay: 1.9s;
+}
+
+.cProductos .descripcion {
+  background: white;
+  margin-bottom: 2rem;
+  border-radius: 0 0 3px 3px;
+  padding: 2rem;
+}
+
+.cProductos .descripcion__title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 2.2rem;
+  color: #24414a;
+  margin-bottom: 0;
+}
+
+.cProductos .descripcion__ingr {
+  margin-bottom: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  min-height: 4rem;
+  color: #8a8a8a;
+}
+
+@media screen and (max-width: 992px) {
+  .cProductos .descripcion__ingr {
+    min-height: 6rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .cProductos .descripcion__ingr {
+    min-height: unset;
+  }
 }
 
 .cProductos .modal .btn-close {
